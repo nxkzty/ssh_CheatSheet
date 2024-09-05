@@ -31,6 +31,7 @@ Windows: `ssh [benutzer]@[linuxIp]`, antworten mit Yes
 SSH verbindung mit Public Key
 ----------------
 `ssh-keygen`
+
 `type ~/.ssh/id_rsa.pub | ssh [username]@[hostname] "cat >> .ssh/authorized_keys"`
 
 oder copy paste 
