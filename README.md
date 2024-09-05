@@ -13,7 +13,6 @@ Windows: ping {linux Ip}
 Linux: ping {windows Ip}
 
 SSH server (Linux)
-
 ----------------
 `sudo apt-get update`
 
