@@ -4,13 +4,16 @@
 IP Adressen
 ----------------
 Windows: ipconfig
+
 Linux: ip addr
+
 Router: ifconfig
 
 Ping
 ----------------
-Windows: ping {linux Ip}
-Linux: ping {windows Ip}
+Windows: ping [linux IP]
+
+Linux: ping [windows IP]
 
 SSH server (Linux)
 ----------------
@@ -23,12 +26,13 @@ SSH server (Linux)
 
 SSH verbindung mit passwort
 ----------------
-Windows: `ssh benutzer@linuxIp`, antworten mit Yes
+Windows: `ssh [benutzer]@[linuxIp]`, antworten mit Yes
 
 SSH verbindung mit Public Key
 ----------------
 `ssh-keygen`
 `type ~/.ssh/id_rsa.pub | ssh [username]@[hostname] "cat >> .ssh/authorized_keys"`
+
 oder copy paste 
 
 `ssh-i c:\pfad\zu\id_rsa @a.b.c.d`
