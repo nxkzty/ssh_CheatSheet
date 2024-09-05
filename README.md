@@ -46,4 +46,4 @@ Zugang mit passwort deaktivieren
 
 `sudo service ssh restart` service restarten damit die configuration übernommen wird
 
-Um zu Testen, ob der Zugang mit Passwort ausgeschaltet ist, können Sie Datei authorized_keys kurz zeitig umbenennen und versuchen sich erneut von WP1 aus anzumelden: ssh vmadmin@a.b.c.d. Dies sollte nun nicht mehr möglich sein.
+Um zu Testen, ob der Zugang mit Passwort ausgeschaltet ist, können Sie Datei authorized_keys kurz zeitig umbenennen und versuchen sich erneut von WP1 aus anzumelden: ssh [vmadmin]@[Linux IP]. Dies sollte nun nicht mehr möglich sein.
